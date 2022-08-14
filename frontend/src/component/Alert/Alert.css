@@ -1,0 +1,11 @@
+.alert {
+    padding: 10px 2.5rem;
+}
+.alert-danger {
+    background-color: rgb(255, 153, 153);
+}
+.alert-success {
+    background-color: rgb(168, 255, 168);
+    color: black;
+    font-family: 'Roboto Flex', sans-serif;
+}

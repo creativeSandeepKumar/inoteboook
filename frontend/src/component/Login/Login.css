@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.login-section {
+    width: 80%;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.login-section h4 {
+    font-size: 1.5rem;
+}
+.login-label {
+    padding: 10px 0 4px 0;
+ display: block;
+} 
+.login-btn {
+    margin-top: 1rem;
+    background-color: green;
+    color: white;
+    padding: 4px 14px;
+    border: none;
+    font-size: 1.1rem;
+    border-radius: 3px;
+}
+.login-btn:hover {
+    background-color: rgb(38, 31, 245);
+    cursor: pointer;
+}
+
+.login-input {
+    padding: 2px 4px;
+    width: 100%;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: 1px solid #000;
+  
+}
+.login-input:focus {
+    box-shadow: 0 0 5pt 5pt #D3D3D3;
+    outline: none;
+    border: 1px solid #000;
+}
+.login-form {
+    margin-top: 1rem;
+    border: 1px solid #666;
+    padding: 2rem;
+    border-radius: 4px; 
+}

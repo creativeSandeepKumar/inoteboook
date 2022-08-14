@@ -1,0 +1,64 @@
+.addnote-section {
+    width: 80%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.addnote-form {
+    border: 1px solid #444;
+    border-radius: 4px;
+    padding: 1rem 2rem;
+}
+
+.addnote-section h2 {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.addnote-label {
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 10px 0 4px 0;
+ display: block;
+}
+.addnote-input {
+    padding: 2px 4px;
+    width: 100%;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: 1px solid #000;
+    
+}
+
+.addnote-input:focus {
+    box-shadow: 0 0 5pt 5pt #D3D3D3;
+    outline: none;
+    border: 1px solid #000;
+}
+
+.addnote-btn {
+    margin-top: 1rem;
+    background-color: rgb(0, 215, 136);
+    color: white;
+    padding: 5px 14px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border: none;
+}
+.addnote-btn:hover {
+    background-color: green;
+}
+
+
+@media screen and (max-width: 700px) {
+    .addnote-section {
+        width: 100%;
+    }
+    .addnote-form {
+        padding: 1rem;
+    }
+}
+@media screen and (max-width: 992px) {
+    .addnote-form {
+        padding: 1rem;
+    }
+}

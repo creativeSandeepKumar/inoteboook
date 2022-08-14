@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600;700&display=swap');
+
+.navbar-main {
+    background-color: black;
+    color: white;
+    padding: 5px 2rem;
+    font-family: Montserrat;
+}
+.navbar-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+.navbar-listItem {
+    padding: 10px 14px;
+    cursor: pointer;
+    
+    
+}
+.navbar-listItem.active {
+    color: red;
+}
+.navbar-listheading  {
+    padding-top: 3px;
+}
+.navbar-listItem a {
+    font-size: 1.1rem;
+}
+.navbar-listItem a:hover, .navbar-listheading a:hover, .navbar-listItem:hover {
+    color: #ccc;
+}
+
+.navbar-section2 {
+    display: none;
+}
+.navbar-section1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-btn {
+    padding: 10px 14px;
+    cursor: pointer;
+    background-color: inherit;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+}
+
+
+
+@media screen and (max-width: 400px) {
+    .navbar-home, .navbar-about {
+        display: none;
+    }
+}
+@media screen and (max-width: 667px) {
+    .navbar-section2.openNav {
+        display: block;
+    }
+    .navbar-listheading  {
+        padding-top: 8px;
+        
+    }
+    .navbar-aside2 .navbar-listItem {
+        font-size: 1.5rem;
+        padding: 5px 14px;
+       
+    }
+}
+@media screen and (min-width: 667px) {
+    .navbar-aside2 {
+        display: none;
+        
+        
+    }
+    .navbar-main {
+        display: flex;
+        justify-content: space-between;
+    }
+    .navbar-section2 {
+        display: block;
+    }
+}
